@@ -29,3 +29,12 @@ CREATE TABLE voleibol (
     entrenador varchar(256),
     ciudad_sede varchar(256)
 );
+
+CREATE TABLE registro_partido (
+    id int primary key,
+    fecha date,
+    equipo_local varchar(256),
+    equipo_visitante varchar(256),
+    marcador_final int,
+    estadio varchar(256)
+);
