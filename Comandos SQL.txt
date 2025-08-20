@@ -1,0 +1,31 @@
+/*CREATE DATABASE my_first_database;*/
+
+CREATE TABLE futbol (
+    id int primary key,
+    nombre varchar(256),
+    fecha_inicio date,
+    fecha_final date,
+    anio_fundacion date,
+    entrenador varchar(256),
+    ciudad_sede varchar(256)
+);
+
+CREATE TABLE baloncesto (
+    id int primary key,
+    nombre varchar(256),
+    fecha_inicio date,
+    fecha_final date,
+    anio_fundacion date,
+    entrenador varchar(256),
+    ciudad_sede varchar(256)
+);
+
+CREATE TABLE voleibol (
+    id int primary key,
+    nombre varchar(256),
+    fecha_inicio date,
+    fecha_final date,
+    anio_fundacion date,
+    entrenador varchar(256),
+    ciudad_sede varchar(256)
+);
